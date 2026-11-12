@@ -1,0 +1,30 @@
+# Dataset and local Python environment
+/data/
+/.venv/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# IDE and OS metadata
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated training outputs and temporary FastText corpora
+/logs/
+/tmp/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
